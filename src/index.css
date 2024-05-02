@@ -1,0 +1,42 @@
+body{
+  margin: 0;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+}
+
+.card {
+  border: 1px solid;
+  width: 250px;
+  text-align: center;
+}
+
+.card img {
+  height: 125px;
+  width: 120px;
+}
+
+.btns-container{
+  display: flex;
+  justify-content: space-around;
+}
+
+.money-display{
+  top: 0;
+  background-color: green;
+  color: white;
+  position: sticky;
+  text-align: center;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 8px;
+  padding: 4px;
+}
