@@ -5,7 +5,7 @@ import list from "./list";
 import Footer from "./components/Footer";
 
 function App() {
-  const [amount, setAmount] = useState(100000000);
+  const [amount, setAmount] = useState(100000000000);
 
   const handleBuy = (price) => {
     setAmount(amount - price);
